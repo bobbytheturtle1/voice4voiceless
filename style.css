@@ -1,14 +1,7 @@
+
 <style>
-
-@import: url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css");
-@import: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
-@import: url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
-@import: url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css");
-
-
-
-.jumbotron {
-	background-color: #ff5555 !important;
+	.jumbotron {
+	background-color: #ff5555;
 	color: #fff;
 	padding: 78px 25px;
 	margin: 0 0 0 0;
@@ -20,6 +13,9 @@
   font-size: 20px;
 }
 
+#color {
+	background: pink;
+}
 
 .textbox {
 	margin: 0;
@@ -37,7 +33,7 @@
 }
 
 .navbar {
-	background-color: #ff5555 !important;
+	background-color: #ff5555;
 	border: none;
 	font-size: 12px !important;
 	font-family: Ariel;
@@ -62,7 +58,7 @@
 
 .navbar li a,
 .navbar .navbar-brand {
-	color: #000 !important;
+	color: #fff !important;
 	transition: 1s;
 }
 
@@ -139,6 +135,11 @@ a {
 .container-fluid {
 	margin: 0 0 0 0;
 	padding: 60px 50px;
+}
+
+.bg-grey {
+	background-color: #aaa;
+	color: #fff;
 }
 
 </style>
