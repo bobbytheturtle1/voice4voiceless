@@ -37,7 +37,7 @@
 }
 
 .navbar {
-	background-color: #ff5555;
+	background-color: #ff5555 !important;
 	border: none;
 	font-size: 12px !important;
 	font-family: Ariel;
@@ -62,7 +62,7 @@
 
 .navbar li a,
 .navbar .navbar-brand {
-	color: #fff !important;
+	color: #000 !important;
 	transition: 1s;
 }
 
